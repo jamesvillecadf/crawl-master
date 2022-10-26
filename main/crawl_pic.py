@@ -6,7 +6,7 @@ import time
 def main():
     start_time = time.time()
     try:
-        html = get_html('http://tieba.baidu.com/p/2460150866')
+        html = get_html('https://tt.vg/freev2')
         imglist = get_pic(html)
         save_pic(imglist)
     except:
